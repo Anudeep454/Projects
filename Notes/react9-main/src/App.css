@@ -1,0 +1,37 @@
+/*Book css logic starts here*/
+.book
+{
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+}
+.book h1
+{
+  text-align: center;
+}
+.book button
+{
+  background-color: aqua;
+  color: white;
+  border-radius: 10px;
+}
+.book:hover{
+  transform: scale(1.05);
+  
+}
+/*Book css logic ends here*/
+/*Book Library css logic starts here*/
+.bookLibrary
+{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  gap: 10px;
+}
+/*Book Library css logic ends here*/
